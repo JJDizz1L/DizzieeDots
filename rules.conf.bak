@@ -1,0 +1,13 @@
+# Omarchy Workspace rules
+
+windowrule = workspace special:discord, class:^([Dd]iscord)$
+layerrule = ignorealpha 0.9, discord
+
+windowrule = workspace special:spotify, class:^([Ss]potify)$
+layerrule = ignorealpha 0.9, spotify
+
+windowrule = float, class:^([Ww]iremix)$, title:^([Ww]iremix)$, initialTitle:^([Aa]lacritty)$
+windowrule = center, 1, class: ^([Ww]iremix)$, title:^([Ww]iremix)$
+
+windowrule = noscreenshare, class:^([Pp]roton-authenticator)$
+windowrule = noscreenshare, title:^([Pp]roton, [Aa]uthenticator)$
