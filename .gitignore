@@ -1,0 +1,6 @@
+*.md
+.vscode/
+.zed/
+git
+git.pub
+
