@@ -3,4 +3,5 @@
 .zed/
 git
 git.pub
-
+.crush
+.ropeproject
