@@ -7,7 +7,36 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "font_size": 16.0
+  },
+  "zoomed_padding": false,
+  "active_pane_modifiers": {
+    "border_size": 0.0
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_menus": true,
+    "show_branch_icon": true
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "toolbar": {
+    "code_actions": true
+  },
+  "cursor_shape": "hollow",
+  "agent_buffer_font_size": 16.0,
+  "auto_update": false,
   "agent": {
+    "play_sound_when_agent_done": true,
+    "notify_when_agent_waiting": "all_screens",
     "default_model": {
       "provider": "google",
       "model": "gemini-2.5-flash"
@@ -16,7 +45,7 @@
     "model_parameters": []
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
+  "ui_font_size": 19.0,
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",
