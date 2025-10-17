@@ -4,7 +4,9 @@
     "useQuickCss": true,
     "themeLinks": [],
     "eagerPatches": false,
-    "enabledThemes": [],
+    "enabledThemes": [
+        "vencord.theme.css"
+    ],
     "enabledThemeLinks": [],
     "themeNames": {},
     "enableReactDevtools": false,
@@ -1114,6 +1116,9 @@
         },
         "SupportHelper": {
             "enabled": true
+        },
+        "KeyboardNavigation": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -1127,7 +1132,7 @@
         "authenticated": false,
         "url": "https://cloud.equicord.org/",
         "settingsSync": false,
-        "settingsSyncVersion": 1760499163805
+        "settingsSyncVersion": 1760677024645
     },
     "ignoreResetWarning": false,
     "userCssVars": {}
