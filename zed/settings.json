@@ -41,7 +41,7 @@
       "provider": "google",
       "model": "gemini-2.5-flash"
     },
-    "default_profile": "write",
+    "default_profile": "ask",
     "model_parameters": []
   },
   "base_keymap": "VSCode",
